@@ -171,7 +171,9 @@ html,body{
 }
 
 .box1 h2, .box2 h2, .box3 h2, .box4 h2{
-    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(236, 119, 8);
+    font-size: 1.1rem;
     padding-top: 1rem;
     padding-left: 2rem;
 }
@@ -270,6 +272,30 @@ html,body{
     width: 100%;
     margin-bottom: 10px;
     /* filter: opacity(80%); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner h2{
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: rgb(212, 2, 2);
+    margin-bottom: 15px;  
+}
+
+.banner h1{
+    font-size: 3.5rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;  
+}
+
+.banner h3{
+    border-bottom: 3px solid red;
 }
 
 /* trend section */
